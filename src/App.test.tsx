@@ -1,8 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import App from './App';
-import { Launches } from './pages'
-import { mount } from 'enzyme';
 import { configure } from "enzyme";
 import Adapter from "enzyme-adapter-react-16";
 
